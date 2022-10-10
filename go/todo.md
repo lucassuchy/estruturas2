@@ -2,6 +2,8 @@
 
 - Todo
   - Desenha a função inicial de sort
+    - Desenho da função de insertion ok
+    - Desenhar a função do bucket
   - Desenhar a lista encadeada
     - Não tem orientação a objeto
     - 3 Campos

@@ -6,10 +6,10 @@ import (
 	"time"
 )
 
-func BenchmarkPrimeNumbers(b *testing.B) {
+func BenchmarkBucketSort(b *testing.B) {
 
 	rand.Seed(time.Now().Unix())
-	array := rand.Perm(10)
-	bucketSort(array)
+	array := rand.Perm(50000000)
+	bucket_sort(array)
 
 }
